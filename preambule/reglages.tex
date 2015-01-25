@@ -1,0 +1,14 @@
+\usepackage{beamer-standrews}
+\setmainlanguage{french}
+\usepackage{graphicx,xspace}
+
+% inspiré de xetex-bidi
+\def\reflect#1{{\setbox0=\hbox{#1}\rlap{\kern0.5\wd0
+  \special{x:gsave}\special{x:scale -1 1}}\box0 \special{x:grestore}}}
+\def\logoXeLaTeX{{\leavevmode$\smash{\hbox{(X\lower.5ex
+  \hbox{\kern-.125em\reflect{E})\,}\kern-.1667em \LaTeX}}$}\xspace}
+
+\author{Maïeul Rouquette}
+\date{10 février 2015}
+\title{Une (trop) brève introduction à \logoXeLaTeX}
+\graphicspath{{img/}}
