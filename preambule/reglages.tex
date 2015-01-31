@@ -1,7 +1,8 @@
 \usepackage[nobiblatex]{beamer-standrews}
 \setmainlanguage{french}
 \usepackage{graphicx,xspace,bidi}
-
+\usepackage{biblatex-philologue}
+\bibliography{contenu/intro-latex-shs.bib}
 % inspiré de xetex-bidi
 \def\reflect#1{{\setbox0=\hbox{#1}\rlap{\kern0.5\wd0
   \special{x:gsave}\special{x:scale -1 1}}\box0 \special{x:grestore}}}
@@ -15,3 +16,5 @@
 \graphicspath{{img/}}
 
 \def\hauteurimg{\dimexpr\textheight-4\baselineskip\relax}
+
+
