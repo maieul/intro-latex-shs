@@ -1,0 +1,51 @@
+\section{Quelques commandes de bases}
+
+\subsection{Structuration du document}
+
+\begin{slide}
+  \begin{itemize}
+    \item 7~niveaux de titres
+      \begin{itemize}
+	\item \verb.\part.
+	\item \verb.\chapter.
+	\item \verb.\section. ; \verb.\subsection. ; \verb.\subsection.
+	\item \verb.\paragraph. ; \verb.\subparagraph.
+      \end{itemize}
+    \item Table des matières générale ou par chapitres.
+    \item Stabilité dans la numérotation.
+    \item Nombreux modèles de numérotation possibles : chiffres romains, arabes, grecs, hébreux, lettres etc.
+  \end{itemize}
+\end{slide}
+
+\subsection{Éléments non textuels}
+
+\begin{slide}
+  \begin{itemize}
+    \item Tableaux, images, graphiques.
+    \item Notions de flottants pour assurer un positionnement optimum.
+  \end{itemize}
+\end{slide}
+
+\begin{slide}
+  \begin{minted}{tex}
+    \begin{figure}[placement]
+      \inputgraphics{fichier}
+      \caption{Légende}
+    \end{figure}
+  \end{minted}
+\end{slide}
+
+\begin{slide}
+  \begin{itemize}
+    \item Préciser où doit s'insérer idéalement un flottant:
+      \begin{itemize}
+	\item À l'emplacement du flottant.
+	\item En haut d'une page.
+	\item En bas d'une page.
+	\item Sur une page dédiée.
+	\item (À la fin)
+      \end{itemize}
+    \item Création de table des flottants.
+    \item Autre possibilités : sous-flottants ; nouveau flottants ; flottants orientés dans un autre sens etc.
+  \end{itemize}
+\end{slide}
