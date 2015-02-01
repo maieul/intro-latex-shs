@@ -55,27 +55,28 @@
 \subsection{Système de citation}
 
 \begin{slide}
-  \begin{columns}
-    \begin{column}[t]{0.45\textwidth}
-      \begin{minted}{tex}
-      	\footcite{BHG226}
-	
-	\footcite[(3)630]{Pleiade_Barnabe}
+  \beamerdefaultoverlayspecification{} 
+  \inputl{citation.tex}{1}{1}
 
-	\footcite[(1)629]{Pleiade_Barnabe}
+  \cite{BHG226}
+  \hrule
 
-	\footcite{BHG226}
-    \end{column}
+  \inputl{citation.tex}{2}{2}
 
-    \begin{column}
-	\cite{BHG226}
-	
-	\cite[(3)630]{Pleiade_Barnabe}
+  \cite[(3)630]{Pleiade_Barnabe}
 
-	\cite[(1)629]{Pleiade_Barnabe}
+  \hrule
+  
+  \inputl{citation.tex}{3}{3}
 
-	\cite{BHG226}
 
-    \end{column}
-  \end{columns}
+  \cite[(1)629]{Pleiade_Barnabe}
+  
+
+  \hrule
+
+  \inputl{citation.tex}{4}{4}
+
+  \cite{BHG226}
+
 \end{slide}
