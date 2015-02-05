@@ -1,0 +1,7 @@
+\newcommand{\nom}[2][]{%
+  \textsc{#2}* 
+  \ifthenelse{\isempty{#1}}{}{(#1)}%
+}
+Et maintenant une commande avec argument optionnel
+Ex : \nom[150/160-220]{Tertullien}. 
+\nom{Tertullien}
