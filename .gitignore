@@ -85,8 +85,7 @@
 
 # minted
 *.pyg
-_minted*
-
+.minted
 # morewrites
 *.mw
 
